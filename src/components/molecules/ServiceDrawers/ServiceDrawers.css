@@ -1,0 +1,12 @@
+#service-drawer{
+    padding: 0.5rem
+}
+#service-drawer.collapse-title, :where(.collapse > input[type="checkbox"]), :where(.collapse > input[type="radio"]) {
+    min-height: auto;
+}
+#service-drawer::after {
+    position: relative;
+    right: -1rem;
+    top: 0.8rem;
+    color: #9CA3AF;
+}
